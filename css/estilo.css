@@ -1,0 +1,137 @@
+.grid{
+    background-color: #7fffd4;
+    display: grid;
+    margin: 15px;
+    grid-template-rows: 90px 90px 90px auto;
+}
+.hijo{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: #696969;
+    font-size: 50px;
+}
+.hijo1{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: dimgrey;
+    grid-column:1/5;
+    font-size: 50px;
+}
+.hijo2{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: #696969;
+    grid-column:1/3;
+    font-size: 50px;
+}
+.hijo5{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: #696969; 
+    grid-column:1/2;
+    font-size: 50px;
+}
+.hijo6{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: #696969;
+    grid-column:2/5;
+    font-size: 50px;
+}
+.hijo7{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: #696969;
+    grid-column:1/3;
+    grid-row: 4/6;
+    font-size: 50px;
+}
+.hijo8{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: #696969;
+    grid-column:3/5;
+    font-size: 50px;
+}
+.hijo9{
+    background-color: #13e663;
+    border-style: solid;
+    border-color: #696969;
+    grid-column:3/5;
+    font-size: 50px;
+}
+
+
+.flex{
+    background-color: #7fffd4;
+    margin: 15px;
+    border-style: solid;
+    border-color: #696969;
+    display: flex;
+    flex-direction: row;
+}
+.caja1{
+    background-color: brown;
+    border-style: solid;
+    border-color: #696969;
+    width: 20%;
+    height: 500px;
+    margin: 10px;
+}
+
+.caja2{
+    background-color: brown;
+    border-style: solid;
+    border-color: #696969;
+    margin: 10px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja2-1{
+    background-color: #ffbc03;
+    border-style: solid;
+    border-color: #696969;
+    margin: 10px;
+    width: 100%;
+    height: 40%;
+}
+.caja2-2{
+    background-color: #03ff25;
+    border-style: solid;
+    border-color: #696969;
+    margin: 10px;
+    width: 514px;
+    height: 100px;
+}
+
+.caja3{
+    background-color: brown;
+    border-style: solid;
+    border-color: #696969;
+    width: 20%;
+    height: 500px;
+    margin: 10px;
+}
+
+
+.bootstrap{
+    background-color: #7fffd4;
+    border-style: solid;
+    border-color: #696969;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-top: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.caja{
+    display: inline;
+    width: 600px;
+}
+.form-floating{
+    width: 500px;
+}
